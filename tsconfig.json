@@ -21,6 +21,15 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "configs/db.js",
+    "configs/db.js",
+    "configs/schema.jsx",
+    "configs/db.js"
+  ],
   "exclude": ["node_modules"]
 }
